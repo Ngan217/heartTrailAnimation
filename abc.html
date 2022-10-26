@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p style="line-height: 18px; font-size: 18px; font-family: times;">
+        <script>
+            for(var line=1; line<=50; line++){
+                document.writeln('<br>');
+                var s = (Math.floor((Math.random()*2)%2))?'\u2571':'\u2572';
+                for(var i=1; i<=29; i++){
+                    document.write(s);
+                }
+            }
+        </script>
+    </p>
+    
+</body>
+</html>
